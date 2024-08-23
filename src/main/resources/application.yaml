@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: epam-mid-task3
+  data:
+    mongodb:
+      uri: ${MONGO_DB_URI}
+      username: ${MONGO_DB_USERNAME}
+      password: ${MONGO_DB_PASSWORD}
+      database: ${MONGO_DB_DATABASE}
