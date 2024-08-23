@@ -54,8 +54,25 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+## API Endpoints
+
+- `POST /movies` - Create a new movie.
+- `GET /movies/{id}` - Retrieve a movie by ID.
+- `GET /movies` - Retrieve all movies.
+- `DELETE /movies/{id}` - Delete a movie by ID.
+- `GET /movies/search` - Search movies by title or release date.
 
 ## Chat GPT log
 
 
 [chat.html](chat.html)
+
+## Feedback
+- The task was essentially simple.
+- 3 hour
+- The code was almost usable, I just tweaked it a bit and added a configuration
+- I struggled with the transfer of markup from the chat response to the README file
+- Rework all model classes with Lombok
+
+
+
